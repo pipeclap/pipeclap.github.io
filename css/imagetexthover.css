@@ -17,10 +17,10 @@ img {
 	-ms-animation
 	-moz-animation
 	-o-animation
-	*/
+	
 
 	-webkit-animation: slide-up 2000ms linear;
-	animation: slide-up 2000ms linear;
+	animation: slide-up 2000ms linear;*/
 }
 
 .card__text {

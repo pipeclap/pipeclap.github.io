@@ -92,6 +92,16 @@ overflow: hidden;
 		display: block;
 	}
 
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+
 @media only screen and (min-width: 25em){
 	.nav{
 		overflow: auto;
@@ -149,7 +159,7 @@ overflow: hidden;
 	}
 	
 	header{
-		background-color: hsla(359,95%,51%,1.00);
+		background-color: Grey;
 		overflow: auto;
 	}
 	
@@ -168,80 +178,10 @@ overflow: hidden;
 	}
 }
 
-
-
-
-/* Homepage Hours */
-
-.hours-list li{
-	margin: 1em 0;
-	line-height: 1.3;
-}
-
-.hours-list dt{
-	font-weight: bold;
-}
-
-.hours-list dd:last-child{
-	color: #666;
-	font-style: italic;
-	font-size: 0.875rem;
-}
-
-.hours-table{
-	margin-bottom: 2rem;
-}
-
-.hours-table thead{
-	background-color: #aaa;
-	color: #fff;
-}
-
-.hours-table th,
-.hours-table td{
-	padding: 0.5rem 1rem;
-	text-align: left;
-}
-
-.hours-table tr:nth-child(even){
-	background-color: #f1f1f1;
-}
-
-.hours-table tr:last-child{
-	border-bottom: 3px solid #666;
-}
-
-
 @media only screen and (min-width: 25em){
-	.hours-table{
-		width: 100%;
-		display: table;
-	}
 
-	.hours-list{
-		display: none;	
-		}
-	
-}
-
-/*Schedule*/
-.image-list{
-	overflow: auto;
-}
-
-.image-list li{
-	width: 45%;
-	margin: 2.5%;
-	float: left;
-}
 
 @media only screen and (min-width: 40em){
-	.image-list li{
-		width: 20%;
-	}
-}
-
-/*pricese*/
 
 
 @media only screen and (min-width: 45em){

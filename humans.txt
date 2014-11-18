@@ -1,9 +1,9 @@
 # TEAM
 
-Designer & Developer: Lorena Franco
-Site: http://lorenafranco.ca
-GitHub: http://github.com/lorefranko
-Twitter: @loreclap
+Designer & Developer: Felipe Clavijo
+Site: http://felipeclavijo.ca
+GitHub: http://github.com/pipeclap
+Twitter: @pipeclap
 Location: Ottawa, Canada
 
 ---

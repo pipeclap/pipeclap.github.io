@@ -9,7 +9,9 @@
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/imagetexthover.css" rel="stylesheet">
+	<link href="css/gallery.css" rel="stylesheet">
 	<link href="https://plus.google.com/u/0/114983152454085854847/about" rel="author">
+ 
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<title>Felipe Clavijo · Awesome Graphic Designer · Ottawa, Canada</title>
@@ -39,71 +41,186 @@
 
 </head>
 <body class="home"> 
-		<header>
-			<h1>Felipe Clavijo</h1>
-			<a href="#nav" class="nav-btn hide-text">Navigation</a>
-			<nav class="nav nav-top" data-state="collapsed">
-				<ul>
-					<li><a href="Info.html">Info.</a></li>
-				</ul>
-			</nav>
-		</header>
+	<header>
+		<h1>Felipe Clavijo</h1>
+		<a href="#nav" class="nav-btn hide-text">Navigation</a>
+		<nav class="nav nav-top" data-state="collapsed">
+			<ul>
+				<li><a href="Info.html">Info.</a></li>
+			</ul>
+		</nav>
+	</header>
 
-		<div class="img-project">
-			<figure class="card">
-				<img src="http://placehold.it/640x480" alt="">
-					<figcaption class="card__text">
-					<h2>Project #1 Title</h2>Lots of text and stuff and things and junk.</figcaption>
-			</figure>
+	<div class="img-project">
+			<h2 class="explanation">Project #1 Title</h2>
+			<p class="explanation">Lots of text and stuff and things and junk.</p>
+				<ul class="slides">
+    			<input type="radio" name="radio-btn" id="img-1" checked />
+    				<li class="slide-container">
+						<div class="slide">
+							<img src="http://placehold.it/640x480"/>
+		       			</div>
+						<div class="nav">
+							<label for="img-6" class="prev">&#x2039;</label>
+							<label for="img-2" class="next">&#x203a;</label>
+						</div>
+   					 </li>
+   	 			<input type="radio" name="radio-btn" id="img-2" />
+   					 <li class="slide-container">
+        				<div class="slide">
+         					<img src="http://placehold.it/640x480"/>
+        				</div>
+		<div class="nav">
+			<label for="img-1" class="prev">&#x2039;</label>
+			<label for="img-3" class="next">&#x203a;</label>
 		</div>
+    </li>
 
-		<div class="img-project">
-			<figure class="card">
-				<img src="http://placehold.it/640x480" alt="">
-					<figcaption class="card__text">
-					<h2>Project #2 Title</h2>Lots of text and stuff and things and junk.</figcaption>
-			</figure>
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://placehold.it/640x480"/>
+        </div>
+		<div class="nav">
+			<label for="img-2" class="prev">&#x2039;</label>
+			<label for="img-4" class="next">&#x203a;</label>
 		</div>
+    </li>
 
-		<div class="img-project">
-			<figure class="card">
-				<img src="http://placehold.it/640x480" alt="">
-					<figcaption class="card__text">
-					<h2>Project #3 Title</h2>Lots of text and stuff and things and junk.</figcaption>
-			</figure>
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://placehold.it/640x480"/>
+        </div>
+		<div class="nav">
+			<label for="img-3" class="prev">&#x2039;</label>
+			<label for="img-5" class="next">&#x203a;</label>
 		</div>
+    </li>
 
-		<div class="img-project">
-			<figure class="card">
-				<img src="http://placehold.it/640x480" alt="">
-					<figcaption class="card__text">
-					<h2>Project #4 Title</h2>Lots of text and stuff and things and junk.</figcaption>
-			</figure>
+    <input type="radio" name="radio-btn" id="img-5" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://placehold.it/640x480"/>
+        </div>
+		<div class="nav">
+			<label for="img-4" class="prev">&#x2039;</label>
+			<label for="img-6" class="next">&#x203a;</label>
 		</div>
+    </li>
 
-		<div class="img-project">
-			<figure class="card">
-				<img src="http://placehold.it/640x480" alt="">
-					<figcaption class="card__text">
-					<h2>Project #5 Title</h2>Lots of text and stuff and things and junk.</figcaption>
-			</figure>
+    <input type="radio" name="radio-btn" id="img-6" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://placehold.it/640x480"/>
+        </div>
+		<div class="nav">
+			<label for="img-5" class="prev">&#x2039;</label>
+			<label for="img-1" class="next">&#x203a;</label>
 		</div>
+    </li>
 
-		<div class="img-project">
-			<figure class="card">
-				<img src="http://placehold.it/640x480" alt="">
-					<figcaption class="card__text">
-					<h2>Project #6 Title</h2>Lots of text and stuff and things and junk.</figcaption>
-			</figure>
-		</div>
+	    <li class="nav-dots">
+	      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+	      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+	      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+	      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+	      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+	      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+	    </li>
+    </ul>
+</div>
 
-		<div class="img-project">
-			<figure class="card">
-				<img src="http://placehold.it/640x480" alt="">
-					<figcaption class="card__text">
-					<h2>Project #7 Title</h2>Lots of text and stuff and things and junk.</figcaption>
-			</figure>
+
+<div class="img-project">
+			<h2 class="explanation">Project #2 Title</h2>
+			<p class="explanation">Lots of text and stuff and things and junk.</p>
+				<ul class="slides">
+    			<input type="radio" name="radio-btn" id="img-01" checked />
+    				<li class="slide-container">
+						<div class="slide">
+							<img src="http://placehold.it/640x480"/>
+		       			</div>
+						<div class="nav">
+							<label for="img-06" class="prev">&#x2039;</label>
+							<label for="img-02" class="next">&#x203a;</label>
+						</div>
+   					 </li>
+   	 			<input type="radio" name="radio-btn" id="img-02" />
+   					 <li class="slide-container">
+        				<div class="slide">
+         					<img src="http://placehold.it/640x480"/>
+        				</div>
+		<div class="nav">
+			<label for="img-01" class="prev">&#x2039;</label>
+			<label for="img-03" class="next">&#x203a;</label>
 		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-03" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://placehold.it/640x480"/>
+        </div>
+		<div class="nav">
+			<label for="img-02" class="prev">&#x2039;</label>
+			<label for="img-04" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-04" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://placehold.it/640x480"/>
+        </div>
+		<div class="nav">
+			<label for="img-03" class="prev">&#x2039;</label>
+			<label for="img-05" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-05" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://placehold.it/640x480"/>
+        </div>
+		<div class="nav">
+			<label for="img-04" class="prev">&#x2039;</label>
+			<label for="img-06" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-06" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://placehold.it/640x480"/>
+        </div>
+		<div class="nav">
+			<label for="img-05" class="prev">&#x2039;</label>
+			<label for="img-01" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+	    <li class="nav-dots">
+	      <label for="img-01" class="nav-dot" id="img-dot-01"></label>
+	      <label for="img-02" class="nav-dot" id="img-dot-02"></label>
+	      <label for="img-03" class="nav-dot" id="img-dot-03"></label>
+	      <label for="img-04" class="nav-dot" id="img-dot-04"></label>
+	      <label for="img-05" class="nav-dot" id="img-dot-05"></label>
+	      <label for="img-06" class="nav-dot" id="img-dot-06"></label>
+	    </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
 			
 
 		<footer>
@@ -111,6 +228,7 @@
 		</footer>
 
 	<script src="js/nav.js"></script>
+
 	</body>
 </html>
 

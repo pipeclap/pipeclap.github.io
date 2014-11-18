@@ -31,6 +31,10 @@ h1,
 	margin: 1rem auto;
 }
 
+h2{
+ margin-left:100px;
+}
+
 img{
 	width: 100%;
 }
@@ -128,6 +132,10 @@ img {
 	}
 }
 
+h2{
+ margin-left:10%;
+}
+
 @media only screen and (min-width: 35em){
 	
 	.nav{
@@ -161,7 +169,13 @@ img {
 		margin-left: 5%;
 		
 	}
-	
+
+	.explanation{
+		margin-left: 22%;
+	}
+	h2{
+ 		margin-left:50px;
+	}
 	header{
 		background-color: Grey;
 		overflow: auto;

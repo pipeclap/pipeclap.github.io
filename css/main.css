@@ -31,6 +31,12 @@ html, body{
 
 }
 
+.flex{
+	margin-top: 60px;
+	display: block;
+	width: 20%;
+}
+
 h1, 
 .main,
 .copyright{
@@ -40,12 +46,14 @@ h1,
 }
 
 h2{
- margin-left:100px;
  font-family:'lato', sans-serif;
  font-weight:300px;
+ position: fixed;
+ float: right;
 }
 
 h3{
+	margin-right: 30%;
 	font-family:'oswald', sans-serif;
 }
 .why{

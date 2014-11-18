@@ -8,6 +8,7 @@
 	<meta name="description" content="Felipe Clavijo Graphic Designer Portfolio Website">
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
+	<link href="css/collapse.css" rel="stylesheet">
 	<link href="css/imagetexthover.css" rel="stylesheet">
 	<link href="css/gallery.css" rel="stylesheet">
 	<link href="https://plus.google.com/u/0/114983152454085854847/about" rel="author">
@@ -47,38 +48,28 @@
 	<header>
 		<img class="logo" src="images/fclogo.png" alt="logoFelipeClavijo">
 		<h1>Felipe Clavijo</h1>
-			<section class="why">
-				<h3>Why?</h3>
-					<p>I like to do what I do best, I’m always looking to do things that does not exist trying to have something new. I also have fun with every project I’m working on.</p>
-					<p>Graphic Design for the passion of my life; if I fell I’m always looking to step up and go forward.</p>
-
-				<!-- Social Icons Start !-->
-				<section>
-					<ul class="social">
-						<li><a class="ease-all" href="https://www.behance.net/pipeclap"><i class="fa fa-behance"></i><span class="hide-text">Behance</span></a></li>
-						<li><a class="ease-all" href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
-						<li><a class="ease-all" href="https://plus.google.com/u/0/"><i class="fa fa-google-plus"></i><span class="hide-text">Google Plus</span></a></li>
-						<li><a class="ease-all" href="https://www.linkedin.com/pub/felipe-clavijo/64/561/b1"><i class="fa fa-linkedin"></i><span class="hide-text">Linked</span></a></li>
-					</ul>
-				</section>
-
-<!-- Social Icons End !-->
-			</section>
-
-		<a href="#nav" class="nav-btn hide-text">Navigation</a>
-			<nav class="nav nav-top" data-state="collapsed">
-				<ul>
-					<li><a href="Info.html">Info.</a></li>
+		<div class="wrap">
+			<div class="collapse">
+			  	<h2>Info</h2>
+			  	<img class="flex"src="http://placehold.it/240x280"/>
+				<p>I like to do what I do best, I’m always looking to do things that does not exist trying to have something new. I also have fun with every project I’m working on.</p>
+				<p>Graphic Design for the passion of my life; if I fell I’m always looking to step up and go forward.</p>
+			 	<ul class="social">
+					<li><a class="ease-all" href="https://www.behance.net/pipeclap"><i class="fa fa-behance"></i><span class="hide-text">Behance</span></a></li>
+					<li><a class="ease-all" href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
+					<li><a class="ease-all" href="https://plus.google.com/u/0/"><i class="fa fa-google-plus"></i><span class="hide-text">Google Plus</span></a></li>
+					<li><a class="ease-all" href="https://www.linkedin.com/pub/felipe-clavijo/64/561/b1"><i class="fa fa-linkedin"></i><span class="hide-text">Linked</span></a></li>
 				</ul>
-			</nav>
+			</div>
+		</div> 		
 	</header>
 
 <!-- #1 Project slider !-->
 
 	<div class="img-project">
 			<h3 class="explanation">SpiderMan Poster</h3>
-			<p class="explanation">A poster design that features the DNA as the spider web comes out of the spider.</p>
-			<p>This piece was done in illustrator.</p>
+			<p class="explanation">A poster design that features the DNA as the spider web comes out of the spider. This piece was done in illustrator.</p>
+			
 				<ul class="slides">
     			<input type="radio" name="radio-btn" id="img-1" checked/>
     				<li class="slide-container">
@@ -230,8 +221,7 @@
 <!-- #3 Project slider !-->
 	<div class="img-project">
 			<h3 class="explanation">Map Design-The everest Camp Sites</h3>
-			<p class="explanation">A map design that features the campsites a long the different routes that take hikers to the top.</p>
-			<p>This piece was done in illustrator using brushes, symbols & patterns.</p>
+			<p class="explanation">A map design that features the campsites a long the different routes that take hikers to the top. This piece was done in illustrator using brushes, symbols & patterns.</p>
 				<ul class="slides">
     			<input type="radio" name="radio-btn" id="img-31" checked/>
     				<li class="slide-container">
@@ -384,8 +374,7 @@
 					<div class="img-project">
 			<h3 class="explanation">CD-Cover Transformers</h3>
 			<p class="explanation">LA compilation of different transformers scenes mix with unrelated pictures to
-			create a unique environment.</p> 
-			<p>This cover was done in Photoshop.</p>
+			create a unique environment. This cover was done in Photoshop.</p> 
 				<ul class="slides">
     			<input type="radio" name="radio-btn" id="img-51" checked/>
     				<li class="slide-container">
@@ -461,8 +450,7 @@
 <!-- #6 Project slider !-->
 					<div class="img-project">
 			<h3 class="explanation">Michael Jackson Layout</h3>
-			<p class="explanation">A pages magazine layout featuring the life of Michael Jackson.</p> 
-			<p>This layout was done in InDesign.</p>
+			<p class="explanation">A pages magazine layout featuring the life of Michael Jackson. This layout was done in InDesign.</p> 
 				<ul class="slides">
     			<input type="radio" name="radio-btn" id="img-61" checked/>
     				<li class="slide-container">
@@ -539,9 +527,8 @@
 					<div class="img-project">
 			<h3 class="explanation">Morales auto & Gas Web Page</h3>
 			<p class="explanation">A fully responsive website for a auto repair garage located in Ottawa. This site features a schedule,
-			Pieces, services and appointments sections, as well a home page and a contact tab.</p> 
-			<p>This web page
-			was created in SublimeText coding.</p>
+			Pieces, services and appointments sections, as well a home page and a contact tab. This web page
+			was created in SublimeText coding.</p> 
 				<ul class="slides">
     			<input type="radio" name="radio-btn" id="img-71" checked/>
     				<li class="slide-container">
@@ -628,9 +615,9 @@
 		<footer>
 			<p class="copyright">Copyright © 2014</p>
 		</footer>
-
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="js/nav.js"></script>
-
-	</body>
+	<script src="js/collapse.js"></script>
+</body>
 </html>
 

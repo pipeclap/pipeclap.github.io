@@ -115,6 +115,76 @@ img {
 	margin-bottom: 5%;
 }
 
+/* Social Links */
+.fancy-link,
+.fancy-link:link,
+.fancy-link:visited{
+	text-decoration: none;
+	color: #1b90d3;
+	font-weight: bold;
+	border-bottom: 0 solid #1b90d3;
+
+}
+
+.fancy-link:hover,
+.fancy-link:active,
+.fancy-link:focus{
+	color:#0d70aa;
+	border-bottom: 5px solid #0d70aa;
+}
+
+.hide-text{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+.social li{
+list-style-type: none;
+
+}
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display: inline-block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-right: 1rem;
+	text-align: center;
+	padding-top: 0.8125rem;
+
+
+	
+	
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	
+	color: #fff;
+	/*background-color:#222;*/
+	
+	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
+	-moz-box-shadow: inset 0px 0px 0px 40px #222;
+	-ms-box-shadow: inset 0px 0px 0px 40px #222;
+	-o-box-shadow: inset 0px 0px 0px 40px #222;
+	box-shadow: inset 0px 0px 0px 40px #222;
+}
+
+.social li a:hover,
+.social li a:active,
+.social li a:focus{
+	color: #222;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
+	-moz-box-shadow: inset 0px 0px 0px 3px #222;
+	-ms-box-shadow: inset 0px 0px 0px 3px #222;
+	-o-box-shadow: inset 0px 0px 0px 3px #222;
+	box-shadow: inset 0px 0px 0px 3px #222;
+}
+
 
 @media only screen and (min-width: 25em){
 	.nav{

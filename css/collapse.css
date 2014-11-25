@@ -9,6 +9,7 @@ body{
   width:80%;
   margin:0 auto;
   float: right; 
+  margin-right: 13%;
 }
 .collapse {
   background-color: rgba(255,255,255,0);

@@ -43,7 +43,9 @@ h2{
 
 h3{
 	margin-right: 30%;
-	font-family:'oswald', sans-serif;
+	font-family:'lato', sans-serif;
+	font-size: 20px;
+	font-weight: 800px;
 }
 
 .why{
@@ -148,7 +150,7 @@ section{
 	color: #222;
 }
 
-/* Gallery */
+/* Slides Gallery */
 .rslides {
   position: relative;
   list-style: none;

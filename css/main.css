@@ -162,45 +162,12 @@ section{
 
 @media only screen and (min-width: 35em){
 	
-	.explanation{
-		margin-left: 22%;
-	}
-	h2{
- 		margin-left:50px;
-	}
-	header{
-		background-color: Grey;
-		overflow: auto;
-	}
-	
-	.why{
-		margin-top: 17%;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-}
 
 @media only screen and (min-width: 40em){
-.why{
-	margin-top: 13%;
-	margin-left: 5%;
-	margin-right: 5%;
-}
+
 
 @media only screen and (min-width: 45em){
-	.why{
-	margin-top: 14%;
-	margin-left: 5%;
-	margin-right: 5%;
-	}
 
-}
 
 @media only screen and (min-width: 50em){
-	.why{
-	margin-top: 10%;
-	margin-left: 5%;
-	margin-right: 50%;
-	position: relative;
-	}
-}
+

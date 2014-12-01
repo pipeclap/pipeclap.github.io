@@ -1,16 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);
-html{ height:100%}
-body{
-  font-family: 'Roboto', sans-serif;
-   font-size:15px;
-}
-
 .wrap{
   width:80%;
-  margin:0 auto;
   float: right; 
   margin-right: 13%;
-  margin-top: -10%;
+  margin-top: -5%;
+
 }
 .collapse {
   background-color: rgba(255,255,255,0);
@@ -57,11 +50,12 @@ body{
   padding:10px !important
 }
 .collapse h2::after{
-  content: "+";
-  text-align:center;
-  position:relative;
+  content: "info +";
+  
+  margin-left: 28%;
   border-radius:50%;
   font-size:18px;
+  font-weight: 300;
   line-height:15px;
   opacity:0.5;
   right: -25%;
@@ -73,5 +67,7 @@ body{
 }
 
 .collapse.active h2::after{
-  content: "-";
+  content: "close -";
+  margin-left: 40%;
+
 }

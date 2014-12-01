@@ -19,8 +19,8 @@ html, body{
 }
 
 .logo{
-	width: 25%;
-	margin-left: 35%;
+	width: 15%;
+	margin-left: 5%;
 	margin-top: 5%;
 }
 
@@ -30,15 +30,14 @@ h1,
 	width: 90%;
 	margin: 1rem auto;
 	font-family: 'oswald', sans-serif;
-	font-size: 30px;
-	margin-left: 10%;
+	font-weight: 300;
+	font-size: 18px;
+	margin-left: 2%;
 }
 
 h2{
- font-family:'lato', sans-serif;
- font-weight:300px;
- position: fixed;
- float: right;
+	font-weight: 300;
+	display: block;
 }
 
 h3{

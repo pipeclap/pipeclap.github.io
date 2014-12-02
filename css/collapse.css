@@ -68,5 +68,28 @@
 .collapse.active h2::after{
   content: "close -";
   margin-left: 50%;
+}
+
+@media only screen and (min-width: 20em){
+  
+.collapse h2::after{
+  margin-left: 54%;
+}
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

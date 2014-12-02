@@ -50,7 +50,6 @@
 }
 .collapse h2::after{
   content: "info +";
-  
   margin-left: 39%;
   border-radius:50%;
   font-size:18px;
@@ -84,7 +83,18 @@
 
   .collapse.active h2::after{
     content: "close -";
-    margin-left: 60%;
+    margin-left: 90%;
+  }
+}
+
+@media only screen and (min-width: 25em){
+  .collapse h2::after{
+   margin-left: 60%;
+  }
+
+  .collapse.active h2::after{
+    content: "close -";
+    margin-left: 55%;
   }
 }
 

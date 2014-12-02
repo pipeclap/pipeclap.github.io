@@ -20,7 +20,7 @@ html, body{
 
 .logo{
 	width: 15%;
-	margin-left: 5%;
+	margin-left: 38%;
 	margin-top: 5%;
 }
 
@@ -46,6 +46,7 @@ h3{
 	font-weight: 300;
 	margin-top: 25%;
 	margin-bottom: 1%;
+	margin-right: 5%;
 }
 
 .why{
@@ -193,20 +194,25 @@ section{
  	margin-right: 8%;
  }
 
-@media only screen and (min-width: 25em){
+@media only screen and (min-width: 20em){
+	.logo{
+	width: 15%;
+	margin-left: 40%;
+}
 
+}
 
 @media only screen and (min-width: 30em){
-
+}
 
 @media only screen and (min-width: 35em){
-	
+}	
 
 @media only screen and (min-width: 40em){
-
+}
 
 @media only screen and (min-width: 45em){
-
+}
 
 @media only screen and (min-width: 50em){
-
+}

@@ -1,6 +1,10 @@
 
 $(function() {
-	$(".rslides").responsiveSlides();
+	$(".rslides").responsiveSlides({
+		auto: false,
+		pager: false,
+        nav: true
+	});
 });
 
 

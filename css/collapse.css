@@ -70,14 +70,22 @@
   margin-left: 50%;
 }
 
-@media only screen and (min-width: 20em){
-  
-.collapse h2::after{
-  margin-left: 54%;
+@media only screen and (min-width: 18.75em){
+  .collapse h2::after{
+    margin-left: 50%;
+  }
 }
 
+@media only screen and (min-width: 20em){
+  
+  .collapse h2::after{
+   margin-left: 54%;
+  }
 
-
+  .collapse.active h2::after{
+    content: "close -";
+    margin-left: 60%;
+  }
 }
 
 

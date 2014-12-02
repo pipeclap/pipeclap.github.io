@@ -196,6 +196,7 @@ section{
 
 .rslides-wrapper {
 	position: relative;
+	margin: 0;
 }
 
 .rslides_nav {

@@ -99,6 +99,18 @@
   }
 }
 
+@media only screen and (min-width: 23.85em){
+  
+  .collapse h2::after{
+   margin-left: 54%;
+  }
+
+  .collapse.active h2::after{
+    content: "close -";
+    margin-left: 55%;
+  }
+}
+
 @media only screen and (min-width: 25em){
   .collapse h2::after{
    margin-left: 60%;

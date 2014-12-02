@@ -73,6 +73,11 @@
   .collapse h2::after{
     margin-left: 50%;
   }
+
+  .collapse.active h2::after{
+    margin-left: 40%;
+  }
+  
 }
 
 @media only screen and (min-width: 20em){
@@ -81,10 +86,6 @@
    margin-left: 54%;
   }
 
-  .collapse.active h2::after{
-    content: "close -";
-    margin-left: 90%;
-  }
 }
 
 @media only screen and (min-width: 20.31em){
@@ -93,10 +94,6 @@
    margin-left: 54%;
   }
 
-  .collapse.active h2::after{
-    content: "close -";
-    margin-left: 60%;
-  }
 }
 
 @media only screen and (min-width: 23.85em){
@@ -105,10 +102,7 @@
    margin-left: 54%;
   }
 
-  .collapse.active h2::after{
-    content: "close -";
-    margin-left: 55%;
-  }
+
 }
 
 @media only screen and (min-width: 25em){
@@ -116,10 +110,6 @@
    margin-left: 60%;
   }
 
-  .collapse.active h2::after{
-    content: "close -";
-    margin-left: 55%;
-  }
 }
 
 

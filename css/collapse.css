@@ -22,7 +22,6 @@
   box-sizing: border-box;
 }
 .collapse.active {
-  background-color: white;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   z-index: 200;
   color:#336699;
@@ -55,13 +54,12 @@
   font-size:18px;
   font-weight: 300;
   line-height:15px;
-  opacity:0.5;
   right: -25%;
   top:0;
 
 }
 .collapse:hover h2::after{
-  opacity:1
+  color: #C5D4F7;
 }
 
 .collapse.active h2::after{

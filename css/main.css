@@ -198,7 +198,7 @@ section{
 
 .rslides-wrapper {
 	position: relative;
-	margin: 0;
+	margin: 6%;
 }
 
 .rslides_nav {
@@ -220,7 +220,7 @@ section{
   }
 
 .rslides_nav.next {
-  left: 92.5%;
+  left: 81.9%;
   background-position: right 50%;
   right: 0;
   }

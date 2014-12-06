@@ -136,12 +136,12 @@ section{
 	border-radius:20px;
 	
 	/*background-color: #222;*/
-	-webkit-box-shadow: inset 0 0 0 40px #222;
-	-moz-box-shadow: inset 0 0 0 40px #222;
-	-o-box-shadow: inset 0 0 0 40px #222;
-	-ms-box-shadow: inset 0 0 0 40px #222;
-	box-shadow: inset 0 0 0 40px #222;
-	color: #fff;
+	-webkit-box-shadow: inset 0 0 0 40px #384B76;
+	-moz-box-shadow: inset 0 0 0 40px #384B76;
+	-o-box-shadow: inset 0 0 0 40px #384B76;
+	-ms-box-shadow: inset 0 0 0 40px #384B76;
+	box-shadow: inset 0 0 0 40px #384B76;
+	color: #cccc33;
 }
 
 .social li a:hover{
@@ -154,10 +154,10 @@ section{
 }
 /* Social bottom links */
 .social-bottom{
+	display: block;
 	height: 10rem;
   	list-style-type: none;
   	margin: 0;
-  	padding: 0;
   	text-align: center;
 }
 

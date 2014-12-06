@@ -9,7 +9,7 @@
   background-color: rgba(255,255,255,0);
   border-bottom: 1px solid #eee;
   cursor: pointer;
-  color: #fff;
+  color: #cccc33;
   padding: -15px;
   margin:0px;
   max-height:40px;
@@ -25,7 +25,7 @@
   background-color: rgba(255,255,255,0.9);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   z-index: 200;
-  color:#444;
+  color:#336699;
   max-height:3000px;
   padding:10px 20px;
   margin: 10px -10px;

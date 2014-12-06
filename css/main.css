@@ -14,8 +14,8 @@ html{
 html, body{
 	font-family: oswald,sans-serif;
 	width: 100%;
-	color: #fff;
-	background-color: gray;
+	color: #cccc33;
+	background-color: #333333;
 }
 
 .logo{
@@ -47,6 +47,7 @@ h3{
 	margin-top: 25%;
 	margin-bottom: 1%;
 	margin-right: 5%;
+	color: #cccc33;
 }
 
 .why{
@@ -54,6 +55,7 @@ h3{
 	margin-top: 20px;
 	margin-left: 5%;
 	margin-right: 5%;
+	color: #336699;
 }
 
 img{
@@ -251,5 +253,8 @@ section{
 @media only screen and (min-width: 45em){
 }
 
-@media only screen and (min-width: 50em){
+@media only screen and (min-width: 90em){
+	.logo{
+		width: 5%;
+	}
 }

@@ -7,7 +7,7 @@
 }
 .collapse {
   background-color: rgba(255,255,255,0);
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #336699;
   cursor: pointer;
   color: #cccc33;
   padding: -15px;
@@ -24,7 +24,7 @@
 .collapse.active {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   z-index: 200;
-  color:#336699;
+  color: #cccc33;
   max-height:3000px;
   padding:10px 20px;
   margin: 10px -10px;
@@ -49,7 +49,7 @@
 }
 .collapse h2::after{
   content: "info +";
-  margin-left: 39%;
+  margin-left: 35%;
   border-radius:50%;
   font-size:18px;
   font-weight: 300;
@@ -64,16 +64,16 @@
 
 .collapse.active h2::after{
   content: "close -";
-  margin-left: 50%;
+  margin-left: 48%;
 }
 
 @media only screen and (min-width: 18.75em){
   .collapse h2::after{
-    margin-left: 50%;
+    margin-left: 28%;
   }
 
   .collapse.active h2::after{
-    margin-left: 40%;
+    margin-left: 20%;
   }
   
 }

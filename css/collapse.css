@@ -21,11 +21,13 @@
   overflow:hidden;
   transition: all 0.4s;
 }
+
 .collapse * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .collapse.active {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   z-index: 200;
@@ -35,11 +37,13 @@
   margin: 10px -10px;
   transition: all 0.2s,max-height 4.8s;
 }
+
 .collapse h2 {
   font-size: 18px;
   line-height: 20px;
   position:relative;
 }
+
 .slide{
   box-shadow:none !important;
   margin:0px !important;
@@ -52,6 +56,7 @@
   margin:0px !important;
   padding:10px !important
 }
+
 .collapse h2::after{
   content: "info +";
   margin-left: 35%;
@@ -77,16 +82,39 @@
     margin-left: 50%;
   }
 
+.collapse {
+  max-height:42px;
+}
 
   .collapse.active h2::after{
     margin-left: 42%;
   }
 }
 
-@media only screen and (min-width: 20em){
-}
 @media only screen and (min-width: 25em){
+   .collapse h2::after{
+    margin-left: 63%;
 }
+
+  .collapse.active h2::after{
+    margin-left: 71%;
+} 
+
+.collapse {
+  max-height:45px;
+}
+}
+
+@media only screen and (min-width: 31.25em){
+   .collapse h2::after{
+    margin-left: 70%;
+}
+
+  .collapse.active h2::after{
+    margin-left: 78%;
+} 
+}
+
 @media only screen and (min-width: 37.5em){
    .collapse h2::after{
     margin-left: 75%;
@@ -97,8 +125,48 @@
 } 
 }
 
+@media only screen and (min-width: 43.75em){
+   .collapse h2::after{
+    margin-left: 79%;
+}
 
+  .collapse.active h2::after{
+    margin-left: 84%;
+} 
+}
 
+@media only screen and (min-width: 56.25em){
+  .collapse h2 {
+    font-size: 20px;   
+}
+   .collapse h2::after{
+    margin-left: 82%;
+    font-size: 1em;
+}
+
+  .collapse.active h2::after{
+    margin-left: 86%;
+} 
+}
+
+@media only screen and (min-width: 89.68em){
+  .collapse h2 {
+    font-size: 21px;
+    line-height: 30px;   
+}
+   .collapse h2::after{
+    margin-left: 88%;
+    font-size: 1em;
+}
+
+  .collapse.active h2::after{
+    margin-left: 91%;
+} 
+
+.collapse {
+  max-height:55px;
+}
+}
 
 
 

@@ -19,8 +19,8 @@ html, body{
 }
 
 .logo{
-	width: 15%;
-	margin-left: 38%;
+	width: 13%;
+	margin-left: 40%;
 	margin-top: 5%;
 }
 
@@ -43,7 +43,7 @@ h3{
 	font-family:'oswald', sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
-	margin-top: 25%;
+	margin-top: .5em;
 	margin-left: 5%;
 	margin-bottom: 1%;
 	color: #cccc33;
@@ -251,6 +251,7 @@ footer li{
 .rslides-wrapper {
 	position: relative;
 	margin: 6%;
+	margin-top: 30%;
 }
 
 .rslides_nav {
@@ -272,7 +273,7 @@ footer li{
   }
 
 .rslides_nav.next {
-  left: 81.9%;
+  left: 78%;
   background-position: right 50%;
   right: 0;
   }
@@ -281,7 +282,8 @@ footer li{
   outline: none;
   }
 
- footer{
+/* footer */
+footer{
  	background: #384B76;
  	height: 70px;
  	margin-left: -5%;
@@ -298,8 +300,10 @@ footer li{
 
 
  @media only screen and (max-width: 299px){
-
- .social-bottom li a{
+.logo{
+	width: 13%;
+}
+.social-bottom li a{
 	display: inline-block;
 	float:  left;
 	width: 40px;
@@ -324,7 +328,7 @@ footer li{
  
 @media only screen and (min-width: 18.75em){
  .logo{
-	width: 15%;
+	width: 17%;
 	margin-left: 41.5%;
 }
 
@@ -350,13 +354,34 @@ footer li{
 }
 
 @media only screen and (min-width: 25em){
-	.projects {
-	 	width: 50%;	
- }
-
+.logo{
+	width: 15%;
 }
 
-@media only screen and (min-width: 37.5em){
+.rslides-wrapper {
+	position: relative;
+	margin: 6%;
+	margin-top: 20%;
+}
+
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin-top: 5%;
+  	margin-left: 15.5%;
+  	margin-bottom: 7%;
+  	margin-right: 5%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+.copyright p{
+	margin: 5%;
+}
+}
+
+@media only screen and (min-width: 31.25em){
  .logo{
 	width: 10%;
 }
@@ -370,25 +395,202 @@ footer li{
   	text-decoration: none;
 }
 
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin-top: 5%;
+  	margin-left: 18.5%;
+  	margin-bottom: 5%;
+  	margin-right: 5%;
+  	text-align: center;
+  	text-decoration: none;
 }
 
-@media only screen and (min-width: 35em){
+.copyright p{
+	margin: 1%;
+}
+}
+
+@media only screen and (min-width: 37.5em){
+ .logo{
+	width: 10%;
+}
+
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin: 25%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+.rslides_nav.next {
+  left: 86.5%;
+  background-position: right 50%;
+  right: 0;
+  }
+
+.rslides-wrapper {
+	margin-top: 15%;
+}
+
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin-top: 5%;
+  	margin-left: 23.5%;
+  	margin-bottom: 5%;
+  	margin-right: 5%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+.copyright p{
+	margin: 1%;
+}
+
+}
+
+@media only screen and (min-width: 43.75em){
+.logo{
+	margin-left: 45%;
+}
+
+h3{
+	margin-top: -1em;
+
+}
+
+.rslides_nav.next {
+  left: 87.5%;
+  background-position: right 50%;
+  right: 0;
+}
+
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin: 28%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin-top: 5%;
+  	margin-left: 27%;
+  	margin-bottom: 5%;
+  	margin-right: 5%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+.copyright p{
+	margin: 1%;
+}
 }	
 
-@media only screen and (min-width: 40em){
-}
-
-@media only screen and (min-width: 45em){
-}
-
-@media only screen and (min-width: 90em){
-	.logo{
-		width: 3%;
-	}
-
-img {
+@media only screen and (min-width: 50em){
+.social-bottom{
 	display: block;
-	width: 35%;
+	height: 3rem;
+  	list-style-type: none;
+  	margin: 31%;
+  	text-align: center;
+  	text-decoration: none;
 }
 
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin-top: 5%;
+  	margin-left: 30%;
+  	margin-bottom: 5%;
+  	margin-right: 5%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+.copyright p{
+	margin: 1%;
+}
+}
+
+@media only screen and (min-width: 56.25em){
+.logo{
+	width: 6.5%;
+}
+
+.copyright p{
+ 	margin: 1%;
+}
+
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin-top: 5%;
+  	margin-left: 32%;
+  	margin-bottom: 5%;
+  	margin-right: 5%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+.rslides_nav.next {
+  left: 88.5%;
+  background-position: right 50%;
+  right: 0;
+}
+
+}
+
+@media only screen and (min-width: 89.68em){
+.logo{
+	width: 5%;
+}
+
+img{
+	width: 50%;
+}
+
+.social{
+	height: 10rem;
+  	list-style-type: none;
+  	margin-left: 0%; 
+  	margin-top: 0%;
+  	margin-bottom: 0;
+  	margin-right: 0%;
+  	padding: 0;
+  	text-align: center;
+}
+
+.copyright p{
+ 	margin: 1%;
+}
+
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin-top: 1%;
+  	margin-left: 38.5%;
+  	margin-bottom: 2%;
+  	margin-right: 5%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+.rslides_nav.next {
+  left: 90%;
+  background-position: right 50%;
+  right: 0;
+}
 }

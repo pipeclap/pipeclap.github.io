@@ -5,6 +5,11 @@
   margin-top: -1%;
 
 }
+
+.collapse p{
+  font-weight: 300;
+}
+
 .collapse {
   background-color: rgba(255,255,255,0);
   border-bottom: 1px solid #336699;
@@ -69,20 +74,17 @@
 
 @media only screen and (min-width: 18.75em){
   .collapse h2::after{
-    margin-left: 28%;
+    margin-left: 50%;
   }
 
+
   .collapse.active h2::after{
-    margin-left: 20%;
+    margin-left: 42%;
   }
-  
 }
 
 @media only screen and (min-width: 20em){
-  
-  .collapse h2::after{
-   margin-left: 54%;
-  }
+
 
 }
 

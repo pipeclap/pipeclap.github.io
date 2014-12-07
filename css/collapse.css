@@ -84,33 +84,19 @@
 }
 
 @media only screen and (min-width: 20em){
-
-
 }
-
-@media only screen and (min-width: 20.31em){
-  
-  .collapse h2::after{
-   margin-left: 54%;
-  }
-
-}
-
-@media only screen and (min-width: 23.85em){
-  
-  .collapse h2::after{
-   margin-left: 54%;
-  }
-
-
-}
-
 @media only screen and (min-width: 25em){
-  .collapse h2::after{
-   margin-left: 60%;
-  }
-
 }
+@media only screen and (min-width: 37.5em){
+   .collapse h2::after{
+    margin-left: 75%;
+}
+
+  .collapse.active h2::after{
+    margin-left: 73%;
+} 
+}
+
 
 
 

@@ -323,7 +323,7 @@ footer li{
 }
  
 @media only screen and (min-width: 18.75em){
-	.logo{
+ .logo{
 	width: 15%;
 	margin-left: 41.5%;
 }
@@ -336,8 +336,6 @@ footer li{
  .social-bottom li a{
  	margin-right: 1%;
  	display: block;
-
-
 }
 
 .social-bottom{
@@ -352,15 +350,26 @@ footer li{
 }
 
 @media only screen and (min-width: 25em){
-
-	 .projects {
-	 	width: 50%;
- 	
+	.projects {
+	 	width: 50%;	
  }
 
 }
 
-@media only screen and (min-width: 30em){
+@media only screen and (min-width: 37.5em){
+ .logo{
+	width: 10%;
+}
+
+.social-bottom{
+	display: block;
+	height: 3rem;
+  	list-style-type: none;
+  	margin: 22%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
 }
 
 @media only screen and (min-width: 35em){
@@ -374,7 +383,7 @@ footer li{
 
 @media only screen and (min-width: 90em){
 	.logo{
-		width: 5%;
+		width: 3%;
 	}
 
 img {

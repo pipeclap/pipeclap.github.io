@@ -387,6 +387,10 @@ footer{
 	width: 10%;
 }
 
+.profile{
+	width: 40%;
+	margin: 0 30%;
+}
 .social-bottom{
 	display: block;
 	height: 3rem;
@@ -554,6 +558,15 @@ h3{
 .profile{
 	float: right;
 	width: 30%;
+	margin: 0;
+}
+
+.collapse p{
+	margin-top: 45%;
+}
+
+.profile img{
+	float: right;
 }
 
 }
@@ -563,10 +576,7 @@ h3{
 	width: 5%;
 }
 
-img{
-	width: 30%;
-	margin-left: 50%;
-}
+
 
 
 

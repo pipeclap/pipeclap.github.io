@@ -27,7 +27,7 @@ html, body{
 	margin: 0 30%;
 }
 
-h1, 
+h1 
 .main,{
 	width: 90%;
 	margin: 1rem auto;
@@ -238,7 +238,7 @@ footer li{
   }
 
  .explanation-btn{
-	font-family: "kameron" serif;
+	font-family: 'kameron', serif;
 	font-size: 1em;
  	font-weight: 400;
  	margin-left: 3%;
@@ -290,7 +290,7 @@ footer{
  	text-align: center;
  	margin: 15%;
  	font-weight: 300;
- 	font-family: "kameron" serif;
+ 	font-family: 'kameron', serif;
  	font-size: .7em;
 
  }
@@ -501,7 +501,7 @@ h3{
 
 @media only screen and (min-width: 50em){
  .explanation-btn{
-	font-family: "kameron" serif;
+	font-family: 'kameron', serif;
 	font-size: 1.2em;
 	text-align: center;
  	font-weight: 400;

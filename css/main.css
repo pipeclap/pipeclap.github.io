@@ -551,6 +551,11 @@ h3{
   right: 0;
 }
 
+.profile{
+	float: right;
+	width: 30%;
+}
+
 }
 
 @media only screen and (min-width: 89.68em){
@@ -559,8 +564,20 @@ h3{
 }
 
 img{
-	width: 50%;
+	width: 30%;
+	margin-left: 50%;
 }
+
+
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 50%;
+  border: 0;
+  margin-left: 25.5%;
+ }
 
 .social{
 	height: 10rem;

@@ -24,6 +24,10 @@ html, body{
 	margin-top: 5%;
 }
 
+.profile{
+	margin: 0 30%;
+}
+
 h1, 
 .main,{
 	width: 90%;
@@ -59,11 +63,6 @@ h3{
 }
 
 
-
-img{
-	width: 100%;
-}
-
 .hide-text {
 	text-indent: 100%;
 	white-space: nowrap;
@@ -86,7 +85,7 @@ img{
 
 img {
 	display: block;
-	width: 100%;
+	width: 50%;
 }
 
 .img-project{
@@ -391,6 +390,7 @@ footer{
 	width: 40%;
 	margin: 0 30%;
 }
+
 .social-bottom{
 	display: block;
 	height: 3rem;
@@ -562,7 +562,7 @@ h3{
 }
 
 .collapse p{
-	margin-top: 45%;
+	margin-top: 40%;
 }
 
 .profile img{
@@ -570,15 +570,19 @@ h3{
 }
 
 }
-
+@media only screen and (min-width: 81.25em){
+.collapse p{
+	margin-top: 47%;
+}
+}
 @media only screen and (min-width: 89.68em){
 .logo{
 	width: 5%;
 }
 
-
-
-
+.collapse p{
+	margin-top: 48%;
+}
 
 .rslides img {
   display: block;

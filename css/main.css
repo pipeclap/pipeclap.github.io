@@ -244,7 +244,6 @@ footer li{
  	font-weight: 400;
  	margin-left: 3%;
  	margin-right: 8%;
-
  }
 
 .rslides-wrapper {
@@ -502,6 +501,27 @@ h3{
 }	
 
 @media only screen and (min-width: 50em){
+ .explanation-btn{
+	font-family: "kameron" serif;
+	font-size: 1.2em;
+	text-align: center;
+ 	font-weight: 400;
+ 	margin-left: 25%;
+ 	margin-right: 25%;
+}
+
+h3{
+	text-align: center;
+	font-family:'oswald', sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-right: 10%;
+	margin-bottom: 1%;
+	color: #cccc33;
+}
+
 .social-bottom{
 	display: block;
 	height: 3rem;
@@ -532,6 +552,16 @@ h3{
 .logo{
 	width: 6.5%;
 }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 35%;
+  border: 0;
+  margin-left: 35%;
+  margin-top: 0%;
+ }
 
 .copyright p{
  	margin: 1%;
@@ -588,9 +618,10 @@ h3{
   display: block;
   height: auto;
   float: left;
-  width: 50%;
+  width: 35%;
   border: 0;
-  margin-left: 25.5%;
+  margin-left: 35%;
+  margin-top: 0%;
  }
 
 .social{
@@ -625,4 +656,6 @@ h3{
   background-position: right 50%;
   right: 0;
 }
+
+
 }
